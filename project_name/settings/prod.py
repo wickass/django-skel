@@ -38,7 +38,7 @@ SERVER_EMAIL = EMAIL_HOST_USER
 
 
 ########## DATABASE CONFIGURATION
-DATABASES = postgresify()
+#DATABASES = postgresify() this needs to be updated for heroku / mongo
 ########## END DATABASE CONFIGURATION
 
 

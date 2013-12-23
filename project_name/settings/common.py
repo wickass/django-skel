@@ -48,7 +48,7 @@ MANAGERS = ADMINS
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.',
+        'ENGINE': 'django_mongodb_engine',
         'NAME': '',
         'USER': '',
         'PASSWORD': '',
